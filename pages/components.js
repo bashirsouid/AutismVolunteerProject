@@ -21,7 +21,6 @@ import SectionTabs from "pages-sections/Components-Sections/SectionTabs.js";
 import SectionPills from "pages-sections/Components-Sections/SectionPills.js";
 import SectionCarousel from "pages-sections/Components-Sections/SectionCarousel.js";
 import SectionCompletedExamples from "pages-sections/Components-Sections/SectionCompletedExamples.js";
-import SectionLogin from "pages-sections/Components-Sections/SectionLogin.js";
 import SectionDownload from "pages-sections/Components-Sections/SectionDownload.js";
 
 import styles from "assets/jss/nextjs-material-kit/pages/components.js";
@@ -66,7 +65,6 @@ export default function Components(props) {
         <SectionPills />
         <SectionCarousel />
         <SectionCompletedExamples />
-        <SectionLogin />
         <GridItem md={12} className={classes.textCenter}>
           <Link href="/login">
             <a className={classes.link}>
