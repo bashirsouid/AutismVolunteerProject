@@ -65,15 +65,6 @@ export default function Components(props) {
         <SectionPills />
         <SectionCarousel />
         <SectionCompletedExamples />
-        <GridItem md={12} className={classes.textCenter}>
-          <Link href="/login">
-            <a className={classes.link}>
-              <Button color="primary" size="lg" simple>
-                View Login Page
-              </Button>
-            </a>
-          </Link>
-        </GridItem>
         <SectionDownload />
       </div>
       <Footer />
