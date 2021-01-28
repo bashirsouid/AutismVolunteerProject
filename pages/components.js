@@ -20,7 +20,6 @@ import SectionNavbars from "pages-sections/Components-Sections/SectionNavbars.js
 import SectionTabs from "pages-sections/Components-Sections/SectionTabs.js";
 import SectionPills from "pages-sections/Components-Sections/SectionPills.js";
 import SectionNotifications from "pages-sections/Components-Sections/SectionNotifications.js";
-import SectionJavascript from "pages-sections/Components-Sections/SectionJavascript.js";
 import SectionCarousel from "pages-sections/Components-Sections/SectionCarousel.js";
 import SectionCompletedExamples from "pages-sections/Components-Sections/SectionCompletedExamples.js";
 import SectionLogin from "pages-sections/Components-Sections/SectionLogin.js";
@@ -68,7 +67,6 @@ export default function Components(props) {
         <SectionTabs />
         <SectionPills />
         <SectionNotifications />
-        <SectionJavascript />
         <SectionCarousel />
         <SectionCompletedExamples />
         <SectionLogin />
