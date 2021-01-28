@@ -20,8 +20,6 @@ import SectionNavbars from "pages-sections/Components-Sections/SectionNavbars.js
 import SectionTabs from "pages-sections/Components-Sections/SectionTabs.js";
 import SectionPills from "pages-sections/Components-Sections/SectionPills.js";
 import SectionCarousel from "pages-sections/Components-Sections/SectionCarousel.js";
-import SectionCompletedExamples from "pages-sections/Components-Sections/SectionCompletedExamples.js";
-import SectionDownload from "pages-sections/Components-Sections/SectionDownload.js";
 
 import styles from "assets/jss/nextjs-material-kit/pages/components.js";
 
@@ -64,8 +62,6 @@ export default function Components(props) {
         <SectionTabs />
         <SectionPills />
         <SectionCarousel />
-        <SectionCompletedExamples />
-        <SectionDownload />
       </div>
       <Footer />
     </div>
