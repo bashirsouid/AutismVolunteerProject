@@ -38,7 +38,7 @@ export default function Components(props) {
   return (
     <div>
       <Header
-        brand="NextJS Material Kit"
+        brand="eXperience Management Day (XM)"
         rightLinks={<HeaderLinks />}
         fixed
         color="transparent"
@@ -53,9 +53,9 @@ export default function Components(props) {
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 className={classes.title}>NextJS Material Kit.</h1>
+                <h1 className={classes.title}>Helping your Child with Autism</h1>
                 <h3 className={classes.subtitle}>
-                  A Badass Material Kit based on Material-UI and NextJS.
+                  A collection of useful resources for parents of children with autism. Know that you are part of a global community.
                 </h3>
               </div>
             </GridItem>
