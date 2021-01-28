@@ -22,6 +22,11 @@ import CustomLinearProgress from "components/CustomLinearProgress/CustomLinearPr
 import Paginations from "components/Pagination/Pagination.js";
 import Badge from "components/Badge/Badge.js";
 
+// Sections for this page
+import ProductSection from "pages-sections/LandingPage-Sections/ProductSection.js";
+import TeamSection from "pages-sections/LandingPage-Sections/TeamSection.js";
+import WorkSection from "pages-sections/LandingPage-Sections/WorkSection.js";
+
 import styles from "assets/jss/nextjs-material-kit/pages/componentsSections/basicsStyle.js";
 
 const useStyles = makeStyles(styles);
@@ -68,6 +73,10 @@ export default function SectionBasics() {
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </h4>
           </div>
+
+          <ProductSection />
+          <TeamSection />
+          <WorkSection />
 
         </div>
       </div>
