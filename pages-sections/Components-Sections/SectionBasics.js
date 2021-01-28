@@ -74,9 +74,9 @@ export default function SectionBasics() {
             </h4>
           </div>
 
-          <ProductSection />
+          {/* <ProductSection />
           <TeamSection />
-          <WorkSection />
+          <WorkSection /> */}
 
         </div>
       </div>
