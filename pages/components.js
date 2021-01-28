@@ -16,9 +16,6 @@ import Button from "components/CustomButtons/Button.js";
 import Parallax from "components/Parallax/Parallax.js";
 // sections for this page
 import SectionBasics from "pages-sections/Components-Sections/SectionBasics.js";
-import SectionNavbars from "pages-sections/Components-Sections/SectionNavbars.js";
-import SectionTabs from "pages-sections/Components-Sections/SectionTabs.js";
-import SectionPills from "pages-sections/Components-Sections/SectionPills.js";
 import SectionCarousel from "pages-sections/Components-Sections/SectionCarousel.js";
 
 import styles from "assets/jss/nextjs-material-kit/pages/components.js";
@@ -58,9 +55,6 @@ export default function Components(props) {
 
       <div className={classNames(classes.main, classes.mainRaised)}>
         <SectionBasics />
-        <SectionNavbars />
-        <SectionTabs />
-        <SectionPills />
         <SectionCarousel />
       </div>
       <Footer />
